@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The answer from BERT model</title>
+</head>
+<body>
+{% if result_str %}
+    <h3>these may be your love</h3>
+    <p>{{ result_str }}</p>
+{% else %}
+    There is no suggestion!
+{% endif %}
+</body>
+</html>
